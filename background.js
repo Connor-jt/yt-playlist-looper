@@ -1,6 +1,4 @@
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-    console.log(changeInfo);
-    console.log(tab);
 
     if (
         tab.url &&
